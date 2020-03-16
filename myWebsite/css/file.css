@@ -90,6 +90,21 @@ a:hover{
 	line-height: 1.5em;
 }
 
+#side-bar .button{
+	margin-top:5%;
+}
+
+@media(max-width:600px){ /*stops float if width of website decreases*/
+	#main-block{
+		width:100%;
+		float:none;
+	}
+	#side-bar{
+		width:100%;
+		float:none;
+	}
+}
+
 form{
 	padding-left: 7%;
 }
